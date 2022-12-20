@@ -1,7 +1,7 @@
 spawn(function()
     local message = Instance.new("Message", workspace)
-    message.Text = "Loaded press z to execute inviseble , press x to respawn)"
-    wait(1)
+    message.Text = 'Loaded, press "Z" to turn invisible and press "X" to reset'
+    wait(2)
     message:Destroy()
 end)
 
