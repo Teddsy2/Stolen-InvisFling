@@ -16,7 +16,7 @@ mouse.KeyDown:connect(function(k)
         spawn(function()
             local message = Instance.new("Message", workspace)
             message.Text =
-                "InvisFling Fling By Teddy#0425 Loaded (Give it some time to load)"
+                "InvisFling By Teddy#0425 Loaded (Give it some time to load)"
             wait(11)
             message:Destroy()
         end)
