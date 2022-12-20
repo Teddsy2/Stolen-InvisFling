@@ -1,7 +1,7 @@
 spawn(function()
     local message = Instance.new("Message", workspace)
     message.Text = "Loaded press z to execute inviseble , press x to respawn)"
-    wait(0.5)
+    wait(1)
     message:Destroy()
 end)
 
@@ -17,7 +17,7 @@ mouse.KeyDown:connect(function(k)
             local message = Instance.new("Message", workspace)
             message.Text =
                 "InvisFling Fling By Teddy#0425 Loaded (Give it some time to load)"
-            wait(1)
+            wait(11)
             message:Destroy()
         end)
 
